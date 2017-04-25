@@ -47,3 +47,5 @@ async function dientich(a, b, h){
 }
 
 dientich(3, 4, 5).then(val => console.log(val));
+
+module.exports = { add, mul, div };
